@@ -1,0 +1,50 @@
+# ============================
+# Django / Python Backend Ignore
+# ============================
+
+# Environment variables
+.env
+*.env
+.env.*
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Django static and media
+staticfiles/
+media/
+
+# Local settings (sensitive)
+settings_local.py
+
+# SQLite (if used before)
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Build directorie
