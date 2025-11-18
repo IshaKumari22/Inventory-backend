@@ -9,3 +9,12 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+    
+class Supplier(models.Model):
+    name=models.CharField(max_length=100)
+    contact=models.CharField(max_length=100,blank=True)
+    email=models.EmailField(blank=True)
+    address=models.TextField(blank=True)
+
+    def __str__(self):
+        return self.name
