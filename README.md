@@ -1,4 +1,6 @@
 Inventory Management System — Backend (Django REST API)
+
+
 A fully functional backend built using Django, Django REST Framework, PostgreSQL, and CORS Headers.
 This backend provides REST APIs for managing products, suppliers, and dashboard analytics.
 
